@@ -48,10 +48,15 @@
 }
 
 /*Desktop 992px*/
-@media screen and (min-width: 992px;) {
+@media screen and (min-width: 992px) {
     /*Main*/
     main {
         padding: 60px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
     }
 
     .recipe-name {
@@ -63,5 +68,36 @@
        display: flex;
     }
 
+    .recipe-video {
+       flex-basis: 100%;
+    }
+
+    .recipe-info {
+       display: flex;
+       flex-direction: column;
+       flex-basis: 30%;
+    }
+
+    .quick-notes li {
+      flex-basis: auto;
+    }
+
+    .btn {
+        display: flex;
+        gap: 10px;
+    }
+
+    .social-networks .label {
+        display: inline-block;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    address {
+        text-align: left;
+    }
 
 }
