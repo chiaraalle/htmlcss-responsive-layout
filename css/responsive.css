@@ -103,7 +103,7 @@
 
 }
 
-/*mobile large 576px*/
+/*mobile large 576px bonus*/
 @media screen and (min-width: 576px) {
     .presentation img {
         float: inline-start;
