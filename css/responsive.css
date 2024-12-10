@@ -1,1 +1,54 @@
 /* Soluzione qui */
+
+/*tablet 768px*/
+@media screen and (min-width: 768px) {
+    /*header*/
+    #topbar {
+        height: 70px;
+        padding: 0 20px;
+        background-color: #fff;
+    
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    /*main*/
+    main {
+        padding: 40px;
+    }
+
+    .recipe-origin {
+        display: inline-block;
+    }
+
+    .recipe-name {
+        font-weight: 900;
+        font-size: xx-large;
+    }
+
+    .quick-notes ul {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: flex-start;
+    }
+
+    .quick-notes li {
+        flex-grow: 1;
+        flex-basis: calc(100% / 3);
+    }
+ 
+    .btn {
+        padding: 10px 50px;
+    }
+
+    .ads {
+        display: block;
+    }
+
+    .presentation img {
+       float: inline-start;
+       margin-right: 10px;
+    }
+}
+  
